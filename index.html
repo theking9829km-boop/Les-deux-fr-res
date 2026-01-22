@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>deux frères</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h2>achats</h2>
+<div id="cart">السلة: <span id="count">0</span></div>
+</header>
+
+<section class="products">
+
+<div class="product">
+<img src="https://i.imgur.com/Z9aQZ0K.png">
+<h3>T-shirt</h3>
+<p>2500 دج</p>
+<button onclick="addToCart(2500)">شراء</button>
+</div>
+
+<div class="product">
+<img src="https://i.imgur.com/3GvwNBf.png">
+<h3>Jacket</h3>
+<p>7000 دج</p>
+<button onclick="addToCart(7000)">شراء</button>
+</div>
+
+<div class="product">
+<img src="https://i.imgur.com/6JbR8ZX.png">
+<h3>Jeans</h3>
+<p>4500 دج</p>
+<button onclick="addToCart(4500)">شراء</button>
+</div>
+
+</section>
+
+<footer>
+<h3>المجموع: <span id="total">0</span> دج</h3>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
